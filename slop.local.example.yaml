@@ -1,0 +1,52 @@
+root: .dev/srv
+
+log-dir: .dev/log
+
+lock-dir: .dev/locks
+
+production: false
+
+sal:
+  enabled: false
+
+notify: {}
+
+config-repo:
+  pull: false
+  push: false
+
+inventory:
+  master: null
+  ssh:
+    user: null
+    identity: null
+    sudo: false
+  local:
+    - localhost
+  hosts:
+    - localhost
+  roles:
+    canary:
+      hosts:
+        - localhost
+      services: []
+    app:
+      hosts: []
+    jobrunner:
+      hosts: []
+
+projects:
+  mediawiki:
+    path: mediawiki
+    link-root: null
+    versions:
+      '1.46':
+        core:
+          url: https://github.com/wikimedia/mediawiki.git
+          branch: _version_
+    deploy:
+      path: mediawiki-live
+      owner: null
+      l10n:
+        when: never
+      checks: null

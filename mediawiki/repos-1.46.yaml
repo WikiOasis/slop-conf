@@ -1,0 +1,17 @@
+_version_: REL1_46
+
+extensions:
+  - path: extensions/AbuseFilter
+    url: https://github.com/wikimedia/mediawiki-extensions-AbuseFilter
+    branch: _version_
+  - path: extensions/CheckUser
+    url: https://github.com/wikimedia/mediawiki-extensions-CheckUser
+    branch: _version_
+  - path: extensions/WikiOasisMagic
+    url: https://github.com/WikiOasis/WikiOasisMagic
+    branch: main
+
+skins:
+  - path: skins/Vector
+    url: https://github.com/wikimedia/mediawiki-skins-Vector
+    branch: _version_

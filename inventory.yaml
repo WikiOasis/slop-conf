@@ -1,0 +1,49 @@
+master: staging-us-east-021.ovvin.wonet
+
+ssh:
+  user: mwdeploy
+  identity: /home/mwdeploy/.ssh/id_ed25519
+  sudo: true
+
+hosts:
+  - staging-us-east-021.ovvin.wonet
+  - mw-us-east-011.ovvin.wonet
+  - mw-us-east-012.ovvin.wonet
+  - mw-us-east-021.ovvin.wonet
+  - mw-us-east-022.ovvin.wonet
+  - task-us-east-011.ovvin.wonet
+
+services:
+  php-fpm:
+    units:
+      - php8.4-fpm
+    action: reload
+  nginx:
+    units:
+      - nginx
+    action: reload
+  jobrunner:
+    units:
+      - mediawiki-jobrunner
+      - mediawiki-jobchron
+    action: restart
+
+roles:
+  canary:
+    hosts:
+      - staging-*
+    services:
+      - php-fpm
+    soak: 30
+  app:
+    hosts:
+      - mw-*
+    batch: 2
+    services:
+      - php-fpm
+  jobrunner:
+    hosts:
+      - task-*
+    services:
+      - php-fpm
+      - jobrunner

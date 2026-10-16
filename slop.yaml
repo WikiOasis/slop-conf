@@ -1,0 +1,78 @@
+root: /srv
+
+log-dir: /var/log/slop
+
+lock-dir: /var/lib/slop/locks
+
+default: mediawiki
+
+gerrit: https://gerrit.wikimedia.org/r
+
+sal:
+  enabled: true
+  client-config: /etc/sal/client.json
+
+notify:
+  secrets-file: /etc/slop/secrets.yaml
+
+config-repo:
+  remote: origin
+  branch: main
+  pull: true
+  push: true
+
+projects:
+  mediawiki:
+    type: mediawiki
+    path: mediawiki-build
+    link-root: /srv/mediawiki
+    mw-config:
+      url: https://github.com/WikiOasis/mw-config.git
+      branch: main
+    versions:
+      '1.46':
+        core:
+          url: https://gerrit.wikimedia.org/r/mediawiki/core.git
+          branch: _version_
+    deploy:
+      path: /srv/mediawiki
+      roles:
+        - canary
+        - app
+        - jobrunner
+      owner: www-data:www-data
+      checks:
+        host: test.wikioasis.org
+        url: http://127.0.0.1
+        retries: 3
+        tests:
+          - name: main page
+            path: /wiki/Main_Page
+            expect: wikioasis
+          - name: api.php
+            path: /w/api.php?action=query&meta=siteinfo&format=json
+            expect: '"sitename"'
+          - name: load.php
+            path: /w/load.php?modules=startup&only=scripts&raw=1
+            expect: mw.loader
+          - name: rest.php
+            path: /w/rest.php/v1/page/Main_Page/bare
+            expect: '"latest"'
+          - name: Special:Version
+            path: /wiki/Special:Version
+            expect: MediaWiki
+            roles:
+              - canary
+          - name: Special:RecentChanges
+            path: /wiki/Special:RecentChanges
+            expect: mw-changeslist
+            roles:
+              - canary
+          - name: Special:Search
+            path: /w/index.php?title=Special:Search&search=test&fulltext=1
+            expect: mw-search
+            roles:
+              - canary
+      l10n:
+        when: auto
+        wiki: testwiki
