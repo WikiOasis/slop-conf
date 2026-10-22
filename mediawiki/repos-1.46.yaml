@@ -957,10 +957,6 @@ extensions:
     url: https://github.com/wikimedia/mediawiki-extensions-Scribunto
     branch: _version_
 
-  - path: extensions/SearchDigest
-    url: https://github.com/weirdgloop/mediawiki-extensions-SearchDigest
-    branch: master
-
   - path: extensions/SecureLinkFixer
     url: https://github.com/wikimedia/mediawiki-extensions-SecureLinkFixer
     branch: _version_
@@ -1248,10 +1244,6 @@ extensions:
   - path: extensions/WikiLove
     url: https://github.com/wikimedia/mediawiki-extensions-WikiLove
     branch: _version_
-
-  - path: extensions/WikiPoints
-    url: https://github.com/Tali64/WikiPoints
-    branch: main
 
   - path: extensions/WikiSEO
     url: https://github.com/wikimedia/mediawiki-extensions-WikiSEO
