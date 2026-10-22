@@ -3,11 +3,12 @@
 Configuration as code for [slop](https://github.com/WikiOasis/slop), WikiOasis's deployment tool. slop checks this
 repository out as its `config/` submodule.
 
-slop pulls this repository before every build and deploy, and commits and pushes it after every **successful**
-deploy. So you can change things either way:
+slop pulls this repository before every command, commits and pushes the changes `slop repo` and `slop patch` make as
+soon as it makes them, and commits and pushes the state after every **successful** deploy. So you can change things
+either way:
 
-- run slop commands on the deploy master (`slop repo pin`, `slop patch add`, ...), which edit these files and get
-  committed by the next successful deploy, or
+- run slop commands on the deploy master (`slop repo pin`, `slop patch add`, ...), which edit these files and push
+  them, or
 - edit the files in your IDE, open a pull request, merge it, and deploy.
 
 ## Layout

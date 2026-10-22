@@ -12,6 +12,7 @@ hosts:
   - mw-us-east-021.ovvin.wonet
   - mw-us-east-022.ovvin.wonet
   - task-us-east-011.ovvin.wonet
+  - apps-us-east-021.ovvin.wonet
 
 services:
   php-fpm:
@@ -26,6 +27,10 @@ services:
     units:
       - mediawiki-jobrunner
       - mediawiki-jobchron
+    action: restart
+  tsportal-worker:
+    units:
+      - tsportal-worker
     action: restart
 
 roles:
@@ -47,3 +52,9 @@ roles:
     services:
       - php-fpm
       - jobrunner
+  apps:
+    hosts:
+      - apps-*
+    services:
+      - php-fpm
+      - tsportal-worker

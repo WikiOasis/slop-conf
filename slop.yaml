@@ -76,3 +76,57 @@ projects:
       l10n:
         when: auto
         wiki: testwiki
+
+  tsportal:
+    type: service
+    path: tsportal-build
+    url: https://github.com/WikiOasis/TSPortal.git
+    branch: main
+    build:
+      - composer install --no-dev --no-interaction --no-progress --optimize-autoloader
+      - npm ci --no-audit --no-fund
+      - VITE_APP_NAME=TSPortal npm run build
+    deploy:
+      path: /srv/tsportal
+      roles:
+        - apps
+      owner: www-data:www-data
+      exclude:
+        - .git
+        - .slop
+        - /.env
+        - /.composer
+        - /.npm
+        - /node_modules
+        - /storage
+        - /bootstrap/cache
+      once:
+        - sudo -n -u www-data /usr/bin/php8.4 {path}/artisan migrate --force
+      after-sync:
+        - sudo -n -u www-data /usr/bin/php8.4 {path}/artisan optimize
+      checks:
+        host: safety.wikioasis.org
+        url: http://127.0.0.1
+        retries: 3
+        forbid:
+          - Whoops
+          - Server Error
+          - Fatal error
+        tests:
+          - name: health
+            path: /up
+            headers:
+              - 'X-Forwarded-Proto: https'
+
+  jobrunner:
+    type: service
+    path: jobrunner-build
+    url: https://github.com/wikimedia/mediawiki-services-jobrunner.git
+    branch: master
+    deploy:
+      path: /srv/mediawiki-services-jobrunner
+      roles:
+        - jobrunner
+      owner: root:root
+      restart:
+        - jobrunner
