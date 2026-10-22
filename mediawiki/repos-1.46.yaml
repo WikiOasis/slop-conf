@@ -726,7 +726,7 @@ extensions:
     branch: _version_
 
   - path: extensions/OOJSPlus
-    url: https://github.com/hallowelt/mwstake-mediawiki-component-commonuserinterface
+    url: https://github.com/wikimedia/mediawiki-extensions-OOJSPlus.git
     branch: master
 
   - path: extensions/OpenGraphMeta
