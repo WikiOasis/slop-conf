@@ -81,10 +81,6 @@ extensions:
     url: https://github.com/wikimedia/mediawiki-extensions-BreadCrumbs2
     branch: _version_
 
-  - path: extensions/Bootstrap
-    url: https://github.com/cmln/chameleon
-    branch: master
-
   - path: extensions/Bucket
     url: https://github.com/weirdgloop/mediawiki-extensions-Bucket
     branch: _version_
@@ -201,6 +197,10 @@ extensions:
     url: https://github.com/wikimedia/mediawiki-extensions-ContactPage
     branch: _version_
 
+  - path: extensions/Compass
+    url: https://github.com/WikiOasis/Compass
+    branch: main
+
   - path: extensions/ContributionScores
     url: https://github.com/wikimedia/mediawiki-extensions-ContributionScores
     branch: _version_
@@ -259,10 +259,6 @@ extensions:
 
   - path: extensions/DataMaps
     url: https://github.com/wikimedia/mediawiki-extensions-DataMaps
-    branch: _version_
-
-  - path: extensions/DataTransfer
-    url: https://github.com/wikimedia/mediawiki-extensions-DataTransfer
     branch: _version_
 
   - path: extensions/DeleteUserPages
@@ -1297,6 +1293,10 @@ extensions:
 
   - path: extensions/WikiOasisMagic
     url: https://github.com/WikiOasis/WikiOasisMagic
+    branch: main
+
+  - path: extensions/WikiOasisSafety
+    url: https://github.com/WikiOasis/WikiOasisSafety
     branch: main
 
   - path: extensions/cldr
