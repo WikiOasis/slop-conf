@@ -727,7 +727,7 @@ extensions:
 
   - path: extensions/OOJSPlus
     url: https://github.com/wikimedia/mediawiki-extensions-OOJSPlus.git
-    branch: master
+    branch: _version_
 
   - path: extensions/OpenGraphMeta
     url: https://github.com/wikimedia/mediawiki-extensions-OpenGraphMeta
