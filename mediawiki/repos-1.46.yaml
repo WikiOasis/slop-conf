@@ -1291,6 +1291,10 @@ extensions:
     url: https://github.com/wikimedia/mediawiki-extensions-WikidataPageBanner
     branch: _version_
 
+  - path: extensions/WikimediaEvents
+    url: https://github.com/wikimedia/mediawiki-extensions-WikimediaEvents
+    branch: _version_
+
   - path: extensions/WikimediaIncubator
     url: https://github.com/wikimedia/mediawiki-extensions-WikimediaIncubator
     branch: _version_
