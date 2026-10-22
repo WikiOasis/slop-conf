@@ -1,0 +1,15 @@
+project: jobrunner
+
+run: 20261022-150919-32b3
+
+deployed-at: '2026-10-22T15:09:23+00:00'
+
+deployed-by: thomas@staging-us-east-021
+
+repos:
+  .:
+    path: .
+    url: https://github.com/wikimedia/mediawiki-services-jobrunner.git
+    branch: master
+    base: 09f30782077b6101871fa95715f7181391d20486
+    head: 09f30782077b6101871fa95715f7181391d20486
