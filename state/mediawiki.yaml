@@ -1,10 +1,17 @@
 project: mediawiki
 
-run: 20261022-150051-6214
+run: 20261022-151531-2f3f
 
-deployed-at: '2026-10-22T15:07:16+00:00'
+deployed-at: '2026-10-22T15:15:53+00:00'
 
-deployed-by: thomas@staging-us-east-021
+deployed-by: thomas@task-us-east-011
+
+message: Partly a test deploy
+
+tasks:
+  - T177
+
+config: b983a16ca4caef6f35950117493c8df9aa26ff32
 
 composer:
   '1.46':
@@ -15,8 +22,8 @@ repos:
     path: config
     url: https://github.com/WikiOasis/mw-config.git
     branch: main
-    base: c2e90b0efb1c6fe6fc0c918e39a76399413b77b8
-    head: c2e90b0efb1c6fe6fc0c918e39a76399413b77b8
+    base: 9bbcede3afae00240d82ad60b85dc63de34e09aa
+    head: 9bbcede3afae00240d82ad60b85dc63de34e09aa
   versions/1.46:
     path: .
     url: https://gerrit.wikimedia.org/r/mediawiki/core.git
