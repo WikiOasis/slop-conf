@@ -1216,6 +1216,7 @@ extensions:
   - path: extensions/VisualEditor
     url: https://github.com/wikimedia/mediawiki-extensions-VisualEditor
     branch: _version_
+    submodules: true
 
   - path: extensions/VoteNY
     url: https://github.com/wikimedia/mediawiki-extensions-VoteNY
@@ -1256,6 +1257,7 @@ extensions:
   - path: extensions/Wikibase
     url: https://github.com/wikimedia/Wikibase
     branch: _version_
+    submodules: true
 
   - path: extensions/WikibaseCirrusSearch
     url: https://github.com/wikimedia/mediawiki-extensions-WikibaseCirrusSearch
