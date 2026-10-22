@@ -39,7 +39,6 @@ roles:
       - staging-*
     services:
       - php-fpm
-    soak: 5
   app:
     hosts:
       - mw-*
