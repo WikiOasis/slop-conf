@@ -1319,6 +1319,10 @@ extensions:
     url: https://github.com/wikimedia/mediawiki-extensions-wikihiero
     branch: _version_
 
+  - path: extensions/Yappin
+    url: https://github.com/lihaohong6/Yappin
+    branch: main
+
 skins:
   - path: skins/Anisa
     url: https://github.com/wikimedia/mediawiki-skins-Anisa
