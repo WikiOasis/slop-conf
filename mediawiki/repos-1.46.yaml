@@ -1025,6 +1025,10 @@ extensions:
     url: https://github.com/Telshin/Spoilers
     branch: master
 
+  - path: extensions/Spring
+    url: https://github.com/WikiOasis/Spring
+    branch: main
+
   - path: extensions/StandardDialogs
     url: https://github.com/wikimedia/mediawiki-extensions-StandardDialogs
     branch: _version_
