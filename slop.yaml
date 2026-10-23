@@ -34,6 +34,10 @@ projects:
         core:
           url: https://gerrit.wikimedia.org/r/mediawiki/core.git
           branch: _version_
+      '1.47':
+        core:
+          url: https://gerrit.wikimedia.org/r/mediawiki/core.git
+          branch: _version_
     deploy:
       path: /srv/mediawiki
       roles:
