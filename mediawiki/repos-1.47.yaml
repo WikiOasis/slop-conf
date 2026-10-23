@@ -1085,6 +1085,10 @@ extensions:
     url: https://github.com/wikimedia/mediawiki-extensions-TemplateWizard
     branch: _version_
 
+  - path: extensions/TestKitchen
+    url: https://github.com/wikimedia/mediawiki-extensions-TestKitchen
+    branch: _version_
+
   - path: extensions/TextExtracts
     url: https://github.com/wikimedia/mediawiki-extensions-TextExtracts
     branch: _version_
