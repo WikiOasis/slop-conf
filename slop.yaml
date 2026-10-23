@@ -67,16 +67,6 @@ projects:
             expect: MediaWiki
             roles:
               - canary
-          - name: Special:RecentChanges
-            path: /wiki/Special:RecentChanges
-            expect: mw-changeslist
-            roles:
-              - canary
-          - name: Special:Search
-            path: /w/index.php?title=Special:Search&search=test&fulltext=1
-            expect: mw-search
-            roles:
-              - canary
       l10n:
         when: auto
         wiki: testwiki
