@@ -1,26 +1,26 @@
 project: mediawiki
 
-run: 20261023-095320-230f
+run: 20261023-102842-d11a
 
-deployed-at: '2026-10-23T09:58:54+00:00'
+deployed-at: '2026-10-23T10:33:45+00:00'
 
 deployed-by: thomas@staging-us-east-021
 
-config: 1ad034fdc96c4b65f4454596d28ac0e464cba1b5
+config: 90ceb3f5cd43a9f92c48c4187f8050ed59291bd0
 
 composer:
   '1.46':
     inputs: 71a499b55786a2755e5dcd3cff5a073ae40e9df85eb147847f220f47ba22d7ec
   '1.47':
-    inputs: 67fd61b817641bf593890be88b79ed571a29fd91c76973379f25863fb72ae4f4
+    inputs: a37a0bceae455e5e5a00503ebc73ddd507089f8f579f08dc9af7e075e8cb21ac
 
 repos:
   config:
     path: config
     url: https://github.com/WikiOasis/mw-config.git
     branch: main
-    base: 4b1236eded531710fe9e117a352c5024a967cbce
-    head: 4b1236eded531710fe9e117a352c5024a967cbce
+    base: 7986208835bdbede82afa35a284267e03e5c42d0
+    head: 7986208835bdbede82afa35a284267e03e5c42d0
   versions/1.46:
     path: .
     url: https://gerrit.wikimedia.org/r/mediawiki/core.git
@@ -1975,8 +1975,8 @@ repos:
     path: extensions/WikiOasisMagic
     url: https://github.com/WikiOasis/WikiOasisMagic
     branch: main
-    base: dce42a1dca393bfa4330efac27acf7719d9767b9
-    head: dce42a1dca393bfa4330efac27acf7719d9767b9
+    base: 442453c7e7089812cb4795d9f406e472b6968efb
+    head: 442453c7e7089812cb4795d9f406e472b6968efb
   versions/1.46/extensions/WikiOasisSafety:
     path: extensions/WikiOasisSafety
     url: https://github.com/WikiOasis/WikiOasisSafety
@@ -3837,6 +3837,12 @@ repos:
     branch: REL1_47
     base: 429b1ddbb1e14d00b2987f1ea539dbbb21d2a1f2
     head: 429b1ddbb1e14d00b2987f1ea539dbbb21d2a1f2
+  versions/1.47/extensions/TestKitchen:
+    path: extensions/TestKitchen
+    url: https://github.com/wikimedia/mediawiki-extensions-TestKitchen
+    branch: REL1_47
+    base: a6358fb30fa43bdf4b29de97f5468c7e2f5ea0ec
+    head: a6358fb30fa43bdf4b29de97f5468c7e2f5ea0ec
   versions/1.47/extensions/TextExtracts:
     path: extensions/TextExtracts
     url: https://github.com/wikimedia/mediawiki-extensions-TextExtracts
@@ -4159,8 +4165,8 @@ repos:
     path: extensions/WikiOasisMagic
     url: https://github.com/WikiOasis/WikiOasisMagic
     branch: main
-    base: dce42a1dca393bfa4330efac27acf7719d9767b9
-    head: dce42a1dca393bfa4330efac27acf7719d9767b9
+    base: 442453c7e7089812cb4795d9f406e472b6968efb
+    head: 442453c7e7089812cb4795d9f406e472b6968efb
   versions/1.47/extensions/WikiOasisSafety:
     path: extensions/WikiOasisSafety
     url: https://github.com/WikiOasis/WikiOasisSafety
