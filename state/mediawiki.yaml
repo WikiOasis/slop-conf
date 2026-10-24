@@ -1,14 +1,14 @@
 project: mediawiki
 
-run: 20261024-152058-b24b
+run: 20261024-171535-873d
 
-deployed-at: '2026-10-24T15:21:17+00:00'
+deployed-at: '2026-10-24T17:15:53+00:00'
 
 deployed-by: pisces@staging-us-east-021
 
-message: 'mw-config#46: add virtual-oauth mapping (MEDIAWIKI-D06)'
+message: 'mw-config#45: Sentry SDK error_types'
 
-config: 0557d285a77822653e83752057c555a014df0c2c
+config: c0443d0c1b92a34fceeb0af6febf83ab99c06fd4
 
 composer:
   '1.46':
@@ -21,8 +21,8 @@ repos:
     path: config
     url: https://github.com/WikiOasis/mw-config.git
     branch: main
-    base: ad24116d53123c5aa58f34b702f1d400acab12cd
-    head: ad24116d53123c5aa58f34b702f1d400acab12cd
+    base: 26e349efbbbb3229c0ad37fbc0dac8af4e0ea1a1
+    head: 26e349efbbbb3229c0ad37fbc0dac8af4e0ea1a1
   versions/1.46:
     path: .
     url: https://gerrit.wikimedia.org/r/mediawiki/core.git
