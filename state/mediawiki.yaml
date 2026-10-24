@@ -1,14 +1,12 @@
 project: mediawiki
 
-run: 20261024-132202-7de8
+run: 20261024-133708-72b8
 
-deployed-at: '2026-10-24T13:22:24+00:00'
+deployed-at: '2026-10-24T13:39:38+00:00'
 
-deployed-by: pisces@staging-us-east-021
+deployed-by: thomas@staging-us-east-021
 
-message: 'mw-config#48 + #47: disable RatePage MMV integration (MEDIAWIKI-CV2); disable broken Evelution & Femiwiki skins'
-
-config: 72a49466e58bcdd014d65694b2a528bcc82219df
+config: 858c6a516cc8c5fb4eb0293af51de1c97a967c27
 
 composer:
   '1.46':
