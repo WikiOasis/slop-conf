@@ -1,12 +1,14 @@
 project: mediawiki
 
-run: 20261024-133708-72b8
+run: 20261024-152058-b24b
 
-deployed-at: '2026-10-24T13:39:38+00:00'
+deployed-at: '2026-10-24T15:21:17+00:00'
 
-deployed-by: thomas@staging-us-east-021
+deployed-by: pisces@staging-us-east-021
 
-config: 858c6a516cc8c5fb4eb0293af51de1c97a967c27
+message: 'mw-config#46: add virtual-oauth mapping (MEDIAWIKI-D06)'
+
+config: 0557d285a77822653e83752057c555a014df0c2c
 
 composer:
   '1.46':
@@ -19,8 +21,8 @@ repos:
     path: config
     url: https://github.com/WikiOasis/mw-config.git
     branch: main
-    base: e02ccec07fb7f6e35a993cc5c87ed4abe05ce380
-    head: e02ccec07fb7f6e35a993cc5c87ed4abe05ce380
+    base: ad24116d53123c5aa58f34b702f1d400acab12cd
+    head: ad24116d53123c5aa58f34b702f1d400acab12cd
   versions/1.46:
     path: .
     url: https://gerrit.wikimedia.org/r/mediawiki/core.git
