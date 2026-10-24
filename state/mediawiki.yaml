@@ -1,12 +1,14 @@
 project: mediawiki
 
-run: 20261023-115627-191d
+run: 20261024-132202-7de8
 
-deployed-at: '2026-10-23T11:58:16+00:00'
+deployed-at: '2026-10-24T13:22:24+00:00'
 
-deployed-by: thomas@staging-us-east-021
+deployed-by: pisces@staging-us-east-021
 
-config: 9ed449ed4303637aaeaac593d66fd9a413ba90a8
+message: 'mw-config#48 + #47: disable RatePage MMV integration (MEDIAWIKI-CV2); disable broken Evelution & Femiwiki skins'
+
+config: 72a49466e58bcdd014d65694b2a528bcc82219df
 
 composer:
   '1.46':
@@ -19,8 +21,8 @@ repos:
     path: config
     url: https://github.com/WikiOasis/mw-config.git
     branch: main
-    base: 7986208835bdbede82afa35a284267e03e5c42d0
-    head: 7986208835bdbede82afa35a284267e03e5c42d0
+    base: e02ccec07fb7f6e35a993cc5c87ed4abe05ce380
+    head: e02ccec07fb7f6e35a993cc5c87ed4abe05ce380
   versions/1.46:
     path: .
     url: https://gerrit.wikimedia.org/r/mediawiki/core.git
