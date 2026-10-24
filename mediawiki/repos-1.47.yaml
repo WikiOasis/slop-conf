@@ -27,7 +27,7 @@ extensions:
 
   - path: extensions/ApprovedRevs
     url: https://github.com/wikimedia/mediawiki-extensions-ApprovedRevs
-    branch: _version_
+    branch: master
 
   - path: extensions/Arrays
     url: https://github.com/wikimedia/mediawiki-extensions-Arrays
