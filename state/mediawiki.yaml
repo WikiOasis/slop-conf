@@ -1,18 +1,16 @@
 project: mediawiki
 
-run: 20261024-171535-873d
+run: 20261024-204806-dcee
 
-deployed-at: '2026-10-24T17:15:53+00:00'
+deployed-at: '2026-10-24T20:49:59+00:00'
 
-deployed-by: pisces@staging-us-east-021
+deployed-by: thomas@task-us-east-011
 
-message: 'mw-config#45: Sentry SDK error_types'
-
-config: c0443d0c1b92a34fceeb0af6febf83ab99c06fd4
+config: e11b92ab390ff6e4630ddff0c6de3a76a09cfecb
 
 composer:
   '1.46':
-    inputs: 71a499b55786a2755e5dcd3cff5a073ae40e9df85eb147847f220f47ba22d7ec
+    inputs: 42d16dac380ee5e46709f43d5932d78f746839dec84fac1a75dab31e2e12b14c
   '1.47':
     inputs: a37a0bceae455e5e5a00503ebc73ddd507089f8f579f08dc9af7e075e8cb21ac
 
@@ -68,9 +66,9 @@ repos:
   versions/1.46/extensions/ApprovedRevs:
     path: extensions/ApprovedRevs
     url: https://github.com/wikimedia/mediawiki-extensions-ApprovedRevs
-    branch: REL1_46
-    base: 5e899c0354df61b6f22a3303dafc89ded56fe8b0
-    head: 5e899c0354df61b6f22a3303dafc89ded56fe8b0
+    branch: master
+    base: 5e7a890a80f2e1743fe0264f27b0678332189189
+    head: 5e7a890a80f2e1743fe0264f27b0678332189189
   versions/1.46/extensions/Arrays:
     path: extensions/Arrays
     url: https://github.com/wikimedia/mediawiki-extensions-Arrays
@@ -2252,9 +2250,9 @@ repos:
   versions/1.47/extensions/ApprovedRevs:
     path: extensions/ApprovedRevs
     url: https://github.com/wikimedia/mediawiki-extensions-ApprovedRevs
-    branch: REL1_47
-    base: 1ae66826e9c4b5e775a66899486a81fb46c32490
-    head: 1ae66826e9c4b5e775a66899486a81fb46c32490
+    branch: master
+    base: 5e7a890a80f2e1743fe0264f27b0678332189189
+    head: 5e7a890a80f2e1743fe0264f27b0678332189189
   versions/1.47/extensions/Arrays:
     path: extensions/Arrays
     url: https://github.com/wikimedia/mediawiki-extensions-Arrays
