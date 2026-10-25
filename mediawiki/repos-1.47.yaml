@@ -230,7 +230,7 @@ extensions:
     branch: _version_
 
   - path: extensions/CreateWiki
-    url: https://github.com/miraheze/CreateWiki
+    url: https://github.com/WikiOasis/CreateWiki
     branch: main
 
   - path: extensions/CreatedPagesList
