@@ -1,18 +1,18 @@
 project: mediawiki
 
-run: 20261024-204806-dcee
+run: 20261025-111820-4598
 
-deployed-at: '2026-10-24T20:49:59+00:00'
+deployed-at: '2026-10-25T11:26:57+00:00'
 
-deployed-by: thomas@task-us-east-011
+deployed-by: thomas@staging-us-east-021
 
-config: e11b92ab390ff6e4630ddff0c6de3a76a09cfecb
+config: 26834ce34d645ba3d504c0c410cb18ecfaec5c1d
 
 composer:
   '1.46':
-    inputs: 42d16dac380ee5e46709f43d5932d78f746839dec84fac1a75dab31e2e12b14c
+    inputs: 400fe15d337c36f6d9251cbf15545f65b015efafeeb6bad2287b7b538ab628ff
   '1.47':
-    inputs: a37a0bceae455e5e5a00503ebc73ddd507089f8f579f08dc9af7e075e8cb21ac
+    inputs: fe86df6d6a61ba15431a05543cd83f46ec007a2fbb66f28d0c4ce99e5ba0240b
 
 repos:
   config:
@@ -25,8 +25,8 @@ repos:
     path: .
     url: https://gerrit.wikimedia.org/r/mediawiki/core.git
     branch: REL1_46
-    base: fad65536b498ab34525d18e67499084a17c9b264
-    head: fad65536b498ab34525d18e67499084a17c9b264
+    base: bd482e3229736d0b2918e08bb628174316de4c3e
+    head: bd482e3229736d0b2918e08bb628174316de4c3e
   versions/1.46/extensions/3D:
     path: extensions/3D
     url: https://github.com/wikimedia/mediawiki-extensions-3D
@@ -371,10 +371,10 @@ repos:
     head: dd16791d12d8f00437dcb1a172db195176e46928
   versions/1.46/extensions/CreateWiki:
     path: extensions/CreateWiki
-    url: https://github.com/miraheze/CreateWiki
+    url: https://github.com/WikiOasis/CreateWiki
     branch: main
-    base: d716daacc14beea2123640fff844051885e24bed
-    head: d716daacc14beea2123640fff844051885e24bed
+    base: 34aa224f29c070a800067f9f70a68b4d336233dd
+    head: 34aa224f29c070a800067f9f70a68b4d336233dd
   versions/1.46/extensions/CreatedPagesList:
     path: extensions/CreatedPagesList
     url: https://github.com/wikimedia/mediawiki-extensions-CreatedPagesList
@@ -595,8 +595,8 @@ repos:
     path: extensions/FloatingUI
     url: https://github.com/StarCitizenTools/mediawiki-extensions-FloatingUI
     branch: main
-    base: f77a1911585372d32d0b73a28bc70856e92109d9
-    head: f77a1911585372d32d0b73a28bc70856e92109d9
+    base: 1e7b84bec905da2312bc6ae3dd153381d1bb9c6d
+    head: 1e7b84bec905da2312bc6ae3dd153381d1bb9c6d
   versions/1.46/extensions/FontAwesome:
     path: extensions/FontAwesome
     url: https://github.com/ProfessionalWiki/FontAwesome
@@ -1105,8 +1105,8 @@ repos:
     path: extensions/OATHAuth
     url: https://github.com/wikimedia/mediawiki-extensions-OATHAuth
     branch: REL1_46
-    base: 3d2b0d4e3b618388ff3d8a1eca6d1307727d9a7f
-    head: 3d2b0d4e3b618388ff3d8a1eca6d1307727d9a7f
+    base: eb02be842d8f48f4fd8bb7794885401901bdd607
+    head: eb02be842d8f48f4fd8bb7794885401901bdd607
   versions/1.46/extensions/OAuth:
     path: extensions/OAuth
     url: https://github.com/wikimedia/mediawiki-extensions-OAuth
@@ -2029,8 +2029,8 @@ repos:
     path: skins/Citizen
     url: https://github.com/StarCitizenTools/mediawiki-skins-Citizen
     branch: main
-    base: 6098f1c7eb0a9aa3571ad57f5bfd6eb26f8dc32d
-    head: 6098f1c7eb0a9aa3571ad57f5bfd6eb26f8dc32d
+    base: 94b550ab2375684fa6556ac87f9dc164e81ee9c5
+    head: 94b550ab2375684fa6556ac87f9dc164e81ee9c5
   versions/1.46/skins/CologneBlue:
     path: skins/CologneBlue
     url: https://github.com/wikimedia/mediawiki-skins-CologneBlue
@@ -2065,8 +2065,8 @@ repos:
     path: skins/Femiwiki
     url: https://github.com/femiwiki/FemiwikiSkin
     branch: main
-    base: 87cf417e26b2782dffab8b002cbd172b927694e0
-    head: 87cf417e26b2782dffab8b002cbd172b927694e0
+    base: 134024492a9aec2f25d36a1a7908374a7e9d8b53
+    head: 134024492a9aec2f25d36a1a7908374a7e9d8b53
   versions/1.46/skins/Foreground:
     path: skins/Foreground
     url: https://github.com/wikimedia/mediawiki-skins-Foreground
@@ -2425,8 +2425,8 @@ repos:
     path: extensions/CirrusSearch
     url: https://github.com/wikimedia/mediawiki-extensions-CirrusSearch
     branch: REL1_47
-    base: 45f214117d3a89e11721898846ba460f0310d1f2
-    head: 45f214117d3a89e11721898846ba460f0310d1f2
+    base: 1327fa6d4aa10d74225b27f582ea9bc727cb8e0c
+    head: 1327fa6d4aa10d74225b27f582ea9bc727cb8e0c
   versions/1.47/extensions/Cite:
     path: extensions/Cite
     url: https://github.com/wikimedia/mediawiki-extensions-Cite
@@ -2555,10 +2555,10 @@ repos:
     head: 6843e95d808452a5e9e2e5692625d98080e1dc75
   versions/1.47/extensions/CreateWiki:
     path: extensions/CreateWiki
-    url: https://github.com/miraheze/CreateWiki
+    url: https://github.com/WikiOasis/CreateWiki
     branch: main
-    base: d716daacc14beea2123640fff844051885e24bed
-    head: d716daacc14beea2123640fff844051885e24bed
+    base: 34aa224f29c070a800067f9f70a68b4d336233dd
+    head: 34aa224f29c070a800067f9f70a68b4d336233dd
   versions/1.47/extensions/CreatedPagesList:
     path: extensions/CreatedPagesList
     url: https://github.com/wikimedia/mediawiki-extensions-CreatedPagesList
@@ -2779,8 +2779,8 @@ repos:
     path: extensions/FloatingUI
     url: https://github.com/StarCitizenTools/mediawiki-extensions-FloatingUI
     branch: main
-    base: f77a1911585372d32d0b73a28bc70856e92109d9
-    head: f77a1911585372d32d0b73a28bc70856e92109d9
+    base: 1e7b84bec905da2312bc6ae3dd153381d1bb9c6d
+    head: 1e7b84bec905da2312bc6ae3dd153381d1bb9c6d
   versions/1.47/extensions/FontAwesome:
     path: extensions/FontAwesome
     url: https://github.com/ProfessionalWiki/FontAwesome
@@ -4219,8 +4219,8 @@ repos:
     path: skins/Citizen
     url: https://github.com/StarCitizenTools/mediawiki-skins-Citizen
     branch: main
-    base: 6098f1c7eb0a9aa3571ad57f5bfd6eb26f8dc32d
-    head: 6098f1c7eb0a9aa3571ad57f5bfd6eb26f8dc32d
+    base: 94b550ab2375684fa6556ac87f9dc164e81ee9c5
+    head: 94b550ab2375684fa6556ac87f9dc164e81ee9c5
   versions/1.47/skins/CologneBlue:
     path: skins/CologneBlue
     url: https://github.com/wikimedia/mediawiki-skins-CologneBlue
@@ -4255,8 +4255,8 @@ repos:
     path: skins/Femiwiki
     url: https://github.com/femiwiki/FemiwikiSkin
     branch: main
-    base: 87cf417e26b2782dffab8b002cbd172b927694e0
-    head: 87cf417e26b2782dffab8b002cbd172b927694e0
+    base: 134024492a9aec2f25d36a1a7908374a7e9d8b53
+    head: 134024492a9aec2f25d36a1a7908374a7e9d8b53
   versions/1.47/skins/Foreground:
     path: skins/Foreground
     url: https://github.com/wikimedia/mediawiki-skins-Foreground
