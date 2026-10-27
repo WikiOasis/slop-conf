@@ -1,17 +1,17 @@
 project: tsportal
 
-run: 20261027-194741-4a6a
+run: 20261027-203814-eecf
 
-deployed-at: '2026-10-27T19:48:01+00:00'
+deployed-at: '2026-10-27T20:40:57+00:00'
 
 deployed-by: thomas@staging-us-east-021
 
-config: c42b97b1aac9b0540873c40de9b8c0555f0438d4
+config: 5a773e4738f1f61120b19a8e81ab52f78b84a048
 
 repos:
   .:
     path: .
     url: https://github.com/WikiOasis/TSPortal.git
     branch: main
-    base: 5e95a2e07dbbe04fa527427864e4ebff24927930
-    head: 5e95a2e07dbbe04fa527427864e4ebff24927930
+    base: d63d5e381b267efdf48cc22784dcc679c70ba57b
+    head: d63d5e381b267efdf48cc22784dcc679c70ba57b
