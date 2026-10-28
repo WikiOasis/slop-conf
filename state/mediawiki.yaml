@@ -1,12 +1,14 @@
 project: mediawiki
 
-run: 20261027-164442-f108
+run: 20261028-134640-a83f
 
-deployed-at: '2026-10-27T16:44:58+00:00'
+deployed-at: '2026-10-28T13:47:03+00:00'
 
-deployed-by: thomas@staging-us-east-021
+deployed-by: mwdeploy@staging-us-east-021
 
-config: 4a79d47a56dda8ae2ee560383211c8c9befd1736
+message: Reduce MaxAge for MissingWiki
+
+config: f24516b85e1bb761d4904569bdc0f4ccc8a2cccf
 
 composer:
   '1.46':
@@ -19,8 +21,8 @@ repos:
     path: config
     url: https://github.com/WikiOasis/mw-config.git
     branch: main
-    base: 2c5dd4dce42d380f9ab880f9a8b1a4a1e0c6c898
-    head: 2c5dd4dce42d380f9ab880f9a8b1a4a1e0c6c898
+    base: 65e0580a11340113d6bda8640fcf3dc3fb11bde2
+    head: 65e0580a11340113d6bda8640fcf3dc3fb11bde2
   versions/1.46:
     path: .
     url: https://gerrit.wikimedia.org/r/mediawiki/core.git
