@@ -1,12 +1,12 @@
 project: mediawiki
 
-run: 20261030-231440-6c6e
+run: 20261030-231612-c331
 
-deployed-at: '2026-10-30T23:15:00+00:00'
+deployed-at: '2026-10-30T23:18:07+00:00'
 
 deployed-by: thomas@staging-us-east-021
 
-config: 313dfab74101045a397e7eb31e76116e9f5b4279
+config: 2aba35cc768d96c1d5714a98a81049c560b10c49
 
 composer:
   '1.46':
@@ -1975,8 +1975,8 @@ repos:
     path: extensions/WikiOasisMagic
     url: https://github.com/WikiOasis/WikiOasisMagic
     branch: main
-    base: d653b2055f4674d6bc885944a1c484a110572cea
-    head: d653b2055f4674d6bc885944a1c484a110572cea
+    base: b6e6606eaf24153065976f4a1d0b2cd40868ed4e
+    head: b6e6606eaf24153065976f4a1d0b2cd40868ed4e
   versions/1.46/extensions/WikiOasisSafety:
     path: extensions/WikiOasisSafety
     url: https://github.com/WikiOasis/WikiOasisSafety
@@ -4165,8 +4165,8 @@ repos:
     path: extensions/WikiOasisMagic
     url: https://github.com/WikiOasis/WikiOasisMagic
     branch: main
-    base: d653b2055f4674d6bc885944a1c484a110572cea
-    head: d653b2055f4674d6bc885944a1c484a110572cea
+    base: b6e6606eaf24153065976f4a1d0b2cd40868ed4e
+    head: b6e6606eaf24153065976f4a1d0b2cd40868ed4e
   versions/1.47/extensions/WikiOasisSafety:
     path: extensions/WikiOasisSafety
     url: https://github.com/WikiOasis/WikiOasisSafety
