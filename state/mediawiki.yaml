@@ -1,17 +1,12 @@
 project: mediawiki
 
-run: 20261101-211416-2cc7
+run: 20261103-072909-483d
 
-deployed-at: '2026-11-01T21:20:10+00:00'
+deployed-at: '2026-11-03T07:33:57+00:00'
 
 deployed-by: thomas@staging-us-east-021
 
-message: Deploy new extensions
-
-tasks:
-  - T93
-
-config: dc006bf90cd29a84c155fb100599d140acb48089
+config: 30a600a81a2761d91b7316a1768497ff56f0eb63
 
 composer:
   '1.46':
@@ -24,14 +19,14 @@ repos:
     path: config
     url: https://github.com/WikiOasis/mw-config.git
     branch: main
-    base: 8592bad7eb69a8092338bc8ed34877a718e9dfaa
-    head: 8592bad7eb69a8092338bc8ed34877a718e9dfaa
+    base: b82ea335a3f5a0fab7cd1153a0ecd487c3f89d0c
+    head: b82ea335a3f5a0fab7cd1153a0ecd487c3f89d0c
   versions/1.46:
     path: .
     url: https://gerrit.wikimedia.org/r/mediawiki/core.git
     branch: REL1_46
-    base: 549c11ef7a6dc6e2d2a4bfba0f213ce9f6ae7baf
-    head: 549c11ef7a6dc6e2d2a4bfba0f213ce9f6ae7baf
+    base: 1c49f3b82665db47bb177b36171f3f18f9fc7692
+    head: 1c49f3b82665db47bb177b36171f3f18f9fc7692
   versions/1.46/extensions/3D:
     path: extensions/3D
     url: https://github.com/wikimedia/mediawiki-extensions-3D
@@ -492,8 +487,8 @@ repos:
     path: extensions/DynamicPageList4
     url: https://github.com/Universal-Omega/DynamicPageList4
     branch: main
-    base: 867fadfb6e7974514bb80644634977636dc86a0a
-    head: 867fadfb6e7974514bb80644634977636dc86a0a
+    base: 1801cbe6d78d69a7f291127e67dd2a275e24c710
+    head: 1801cbe6d78d69a7f291127e67dd2a275e24c710
   versions/1.46/extensions/DynamicSidebar:
     path: extensions/DynamicSidebar
     url: https://github.com/wikimedia/mediawiki-extensions-DynamicSidebar
@@ -600,8 +595,8 @@ repos:
     path: extensions/FloatingUI
     url: https://github.com/StarCitizenTools/mediawiki-extensions-FloatingUI
     branch: main
-    base: 1e7b84bec905da2312bc6ae3dd153381d1bb9c6d
-    head: 1e7b84bec905da2312bc6ae3dd153381d1bb9c6d
+    base: 30b3a9061bb4a6cffa9499159455fd896bffbca2
+    head: 30b3a9061bb4a6cffa9499159455fd896bffbca2
   versions/1.46/extensions/FontAwesome:
     path: extensions/FontAwesome
     url: https://github.com/ProfessionalWiki/FontAwesome
@@ -618,8 +613,8 @@ repos:
     path: extensions/Gadgets
     url: https://github.com/wikimedia/mediawiki-extensions-Gadgets
     branch: REL1_46
-    base: 172b320ee932510a84069fe23345344b5602749d
-    head: 172b320ee932510a84069fe23345344b5602749d
+    base: 06c38e9bbcffc9774ea66c850a55e58a3c576239
+    head: 06c38e9bbcffc9774ea66c850a55e58a3c576239
   versions/1.46/extensions/Genealogy:
     path: extensions/Genealogy
     url: https://github.com/wikimedia/mediawiki-extensions-Genealogy
@@ -762,14 +757,14 @@ repos:
     path: extensions/ImportDump
     url: https://github.com/miraheze/ImportDump
     branch: main
-    base: 544b2946b084f1d9c50be01719db5e897b1dcdab
-    head: 544b2946b084f1d9c50be01719db5e897b1dcdab
+    base: b181d5cf840b2bd27998035913607bd8884397fb
+    head: b181d5cf840b2bd27998035913607bd8884397fb
   versions/1.46/extensions/IncidentReporting:
     path: extensions/IncidentReporting
     url: https://github.com/miraheze/IncidentReporting
     branch: main
-    base: 4df251a3690a2086ef57f6a835d9532d2300e629
-    head: 4df251a3690a2086ef57f6a835d9532d2300e629
+    base: a5f86b9c5b475b9a849f0fd7cbbc608e1f61b0b6
+    head: a5f86b9c5b475b9a849f0fd7cbbc608e1f61b0b6
   versions/1.46/extensions/InputBox:
     path: extensions/InputBox
     url: https://github.com/wikimedia/mediawiki-extensions-InputBox
@@ -924,8 +919,8 @@ repos:
     path: extensions/ManageWiki
     url: https://github.com/miraheze/ManageWiki
     branch: main
-    base: e97ef41d981b6332d880b52143be424df7c46491
-    head: e97ef41d981b6332d880b52143be424df7c46491
+    base: 57dd058618bd3071df09fdb249e7b3693da57a3e
+    head: 57dd058618bd3071df09fdb249e7b3693da57a3e
   versions/1.46/extensions/MassEditRegex:
     path: extensions/MassEditRegex
     url: https://github.com/wikimedia/mediawiki-extensions-MassEditRegex
@@ -948,14 +943,14 @@ repos:
     path: extensions/MatomoAnalytics
     url: https://github.com/miraheze/MatomoAnalytics
     branch: main
-    base: 5340136b7bc267b128f608de819c45e27373b651
-    head: 5340136b7bc267b128f608de819c45e27373b651
+    base: 25d5d4e0f9348e688e72fb73f2e86817363db215
+    head: 25d5d4e0f9348e688e72fb73f2e86817363db215
   versions/1.46/extensions/Maps:
     path: extensions/Maps
     url: https://github.com/ProfessionalWiki/Maps
     branch: master
-    base: 6315213691c7bdce6ec1c8a27ab2a799cbdfa0d4
-    head: 6315213691c7bdce6ec1c8a27ab2a799cbdfa0d4
+    base: 1d02d917c11534b267f05c071e55ea7c337cb327
+    head: 1d02d917c11534b267f05c071e55ea7c337cb327
   versions/1.46/extensions/MediaModeration:
     path: extensions/MediaModeration
     url: https://github.com/wikimedia/mediawiki-extensions-MediaModeration
@@ -978,8 +973,8 @@ repos:
     path: extensions/MirahezeMagic
     url: https://github.com/miraheze/MirahezeMagic
     branch: main
-    base: c2e68a71924edfd0224c021c98f8fc8f02c5dcfa
-    head: c2e68a71924edfd0224c021c98f8fc8f02c5dcfa
+    base: 3f0393f96ffadb040b83d4bf93c84b1627ec10e5
+    head: 3f0393f96ffadb040b83d4bf93c84b1627ec10e5
   versions/1.46/extensions/MobileDetect:
     path: extensions/MobileDetect
     url: https://github.com/wikimedia/mediawiki-extensions-MobileDetect
@@ -1056,8 +1051,8 @@ repos:
     path: extensions/Network
     url: https://github.com/ProfessionalWiki/Network.git
     branch: master
-    base: 7c289040ec90957b34d43f4c20e38d4105ee07f6
-    head: 7c289040ec90957b34d43f4c20e38d4105ee07f6
+    base: 4869f91bcb7b13258bb88bbdc422d18c11aa2d56
+    head: 4869f91bcb7b13258bb88bbdc422d18c11aa2d56
   versions/1.46/extensions/NewSignupPage:
     path: extensions/NewSignupPage
     url: https://github.com/wikimedia/mediawiki-extensions-NewSignupPage
@@ -1404,8 +1399,8 @@ repos:
     path: extensions/RequestCustomDomain
     url: https://github.com/miraheze/RequestCustomDomain
     branch: main
-    base: b21b82bbafcd01d1052ab000c7ce0e915f4ab902
-    head: b21b82bbafcd01d1052ab000c7ce0e915f4ab902
+    base: 665ee449c75a869bd65e0e298e0b1ff7d6504d0c
+    head: 665ee449c75a869bd65e0e298e0b1ff7d6504d0c
   versions/1.46/extensions/RevisionSlider:
     path: extensions/RevisionSlider
     url: https://github.com/wikimedia/mediawiki-extensions-RevisionSlider
@@ -1494,14 +1489,14 @@ repos:
     path: extensions/ShortDescription
     url: https://github.com/StarCitizenTools/mediawiki-extensions-ShortDescription
     branch: main
-    base: 8e96b77024581fe25f0394d12eaa7ac7d7db5405
-    head: 8e96b77024581fe25f0394d12eaa7ac7d7db5405
+    base: 3d9eaf752119990014d0effa504c0e5dfc4157eb
+    head: 3d9eaf752119990014d0effa504c0e5dfc4157eb
   versions/1.46/extensions/SimpleBatchUpload:
     path: extensions/SimpleBatchUpload
     url: https://github.com/ProfessionalWiki/SimpleBatchUpload
     branch: master
-    base: 6956147c1bc82c3266862abd174961169058da94
-    head: 6956147c1bc82c3266862abd174961169058da94
+    base: 5172ed65650cd9984cc34a90f93e0ed425e421bb
+    head: 5172ed65650cd9984cc34a90f93e0ed425e421bb
   versions/1.46/extensions/SimpleBlogPage:
     path: extensions/SimpleBlogPage
     url: https://github.com/wikimedia/mediawiki-extensions-SimpleBlogPage
@@ -1614,8 +1609,8 @@ repos:
     path: extensions/TabberNeue
     url: https://github.com/StarCitizenTools/mediawiki-extensions-TabberNeue
     branch: main
-    base: 2695d71d1b947f1e3a8d0d89011fe337e2a6a0f6
-    head: 2695d71d1b947f1e3a8d0d89011fe337e2a6a0f6
+    base: fddb53e0eca23243b0feae0cf7d60496476fffbe
+    head: fddb53e0eca23243b0feae0cf7d60496476fffbe
   versions/1.46/extensions/TableProgressTracking:
     path: extensions/TableProgressTracking
     url: https://github.com/Telepedia/TableProgressTracking
@@ -1878,8 +1873,8 @@ repos:
     path: extensions/WikiDiscover
     url: https://github.com/miraheze/WikiDiscover
     branch: main
-    base: a727e1142997e663a5f357e40d7630fb798857c8
-    head: a727e1142997e663a5f357e40d7630fb798857c8
+    base: c296bc895d577e6b36276ff9bdee98c5a3323923
+    head: c296bc895d577e6b36276ff9bdee98c5a3323923
   versions/1.46/extensions/WikiEditor:
     path: extensions/WikiEditor
     url: https://github.com/wikimedia/mediawiki-extensions-WikiEditor
@@ -2034,8 +2029,8 @@ repos:
     path: skins/Citizen
     url: https://github.com/StarCitizenTools/mediawiki-skins-Citizen
     branch: main
-    base: 497d0560586c6949c8e4b999a825e4d19ad4c675
-    head: 497d0560586c6949c8e4b999a825e4d19ad4c675
+    base: dc34c3dd679ab690747dab815f79daba016bd49e
+    head: dc34c3dd679ab690747dab815f79daba016bd49e
   versions/1.46/skins/CologneBlue:
     path: skins/CologneBlue
     url: https://github.com/wikimedia/mediawiki-skins-CologneBlue
@@ -2070,8 +2065,8 @@ repos:
     path: skins/Femiwiki
     url: https://github.com/femiwiki/FemiwikiSkin
     branch: main
-    base: d97dc38f63af55c5e4651cab525e8a137ed61000
-    head: d97dc38f63af55c5e4651cab525e8a137ed61000
+    base: 674be8927b1edaceb5f2c5e5603765b3ef3b9391
+    head: 674be8927b1edaceb5f2c5e5603765b3ef3b9391
   versions/1.46/skins/Foreground:
     path: skins/Foreground
     url: https://github.com/wikimedia/mediawiki-skins-Foreground
@@ -2094,8 +2089,8 @@ repos:
     path: skins/Lakeus
     url: https://github.com/lakejason0/mediawiki-skins-Lakeus
     branch: master
-    base: 09c8d6ab449959de0401cf152c4b91205f8ebd07
-    head: 09c8d6ab449959de0401cf152c4b91205f8ebd07
+    base: d397067d24a8a21343ea6560efc45ffb1248d338
+    head: d397067d24a8a21343ea6560efc45ffb1248d338
   versions/1.46/skins/Mask:
     path: skins/Mask
     url: https://github.com/wikimedia/mediawiki-skins-Mask
@@ -2214,8 +2209,8 @@ repos:
     path: .
     url: https://gerrit.wikimedia.org/r/mediawiki/core.git
     branch: REL1_47
-    base: f688a50c98aa001906b6e9675264bdaabaaf933a
-    head: f688a50c98aa001906b6e9675264bdaabaaf933a
+    base: c57fec1c59922c90c504bc21c06e3b09c44b7db3
+    head: c57fec1c59922c90c504bc21c06e3b09c44b7db3
   versions/1.47/extensions/3D:
     path: extensions/3D
     url: https://github.com/wikimedia/mediawiki-extensions-3D
@@ -2436,8 +2431,8 @@ repos:
     path: extensions/Cite
     url: https://github.com/wikimedia/mediawiki-extensions-Cite
     branch: REL1_47
-    base: 23870001d8a32866d7ef73c667565cb31d40ca9f
-    head: 23870001d8a32866d7ef73c667565cb31d40ca9f
+    base: c1990305d47d0941d4c215ea4e3ce22bd77deb19
+    head: c1990305d47d0941d4c215ea4e3ce22bd77deb19
   versions/1.47/extensions/CiteThisPage:
     path: extensions/CiteThisPage
     url: https://github.com/wikimedia/mediawiki-extensions-CiteThisPage
@@ -2478,8 +2473,8 @@ repos:
     path: extensions/CommentStreams
     url: https://github.com/wikimedia/mediawiki-extensions-CommentStreams
     branch: REL1_47
-    base: 70b411eff42c8fb3b4568fbec2c1640e4aad5b15
-    head: 70b411eff42c8fb3b4568fbec2c1640e4aad5b15
+    base: ba4d4000f4297dcf7017e6ad944a56d3b710fc10
+    head: ba4d4000f4297dcf7017e6ad944a56d3b710fc10
   versions/1.47/extensions/Commentbox:
     path: extensions/Commentbox
     url: https://github.com/wikimedia/mediawiki-extensions-Commentbox
@@ -2676,8 +2671,8 @@ repos:
     path: extensions/DynamicPageList4
     url: https://github.com/Universal-Omega/DynamicPageList4
     branch: main
-    base: 867fadfb6e7974514bb80644634977636dc86a0a
-    head: 867fadfb6e7974514bb80644634977636dc86a0a
+    base: 1801cbe6d78d69a7f291127e67dd2a275e24c710
+    head: 1801cbe6d78d69a7f291127e67dd2a275e24c710
   versions/1.47/extensions/DynamicSidebar:
     path: extensions/DynamicSidebar
     url: https://github.com/wikimedia/mediawiki-extensions-DynamicSidebar
@@ -2784,8 +2779,8 @@ repos:
     path: extensions/FloatingUI
     url: https://github.com/StarCitizenTools/mediawiki-extensions-FloatingUI
     branch: main
-    base: 1e7b84bec905da2312bc6ae3dd153381d1bb9c6d
-    head: 1e7b84bec905da2312bc6ae3dd153381d1bb9c6d
+    base: 30b3a9061bb4a6cffa9499159455fd896bffbca2
+    head: 30b3a9061bb4a6cffa9499159455fd896bffbca2
   versions/1.47/extensions/FontAwesome:
     path: extensions/FontAwesome
     url: https://github.com/ProfessionalWiki/FontAwesome
@@ -2946,14 +2941,14 @@ repos:
     path: extensions/ImportDump
     url: https://github.com/miraheze/ImportDump
     branch: main
-    base: 544b2946b084f1d9c50be01719db5e897b1dcdab
-    head: 544b2946b084f1d9c50be01719db5e897b1dcdab
+    base: b181d5cf840b2bd27998035913607bd8884397fb
+    head: b181d5cf840b2bd27998035913607bd8884397fb
   versions/1.47/extensions/IncidentReporting:
     path: extensions/IncidentReporting
     url: https://github.com/miraheze/IncidentReporting
     branch: main
-    base: 4df251a3690a2086ef57f6a835d9532d2300e629
-    head: 4df251a3690a2086ef57f6a835d9532d2300e629
+    base: a5f86b9c5b475b9a849f0fd7cbbc608e1f61b0b6
+    head: a5f86b9c5b475b9a849f0fd7cbbc608e1f61b0b6
   versions/1.47/extensions/InputBox:
     path: extensions/InputBox
     url: https://github.com/wikimedia/mediawiki-extensions-InputBox
@@ -3108,8 +3103,8 @@ repos:
     path: extensions/ManageWiki
     url: https://github.com/miraheze/ManageWiki
     branch: main
-    base: e97ef41d981b6332d880b52143be424df7c46491
-    head: e97ef41d981b6332d880b52143be424df7c46491
+    base: 57dd058618bd3071df09fdb249e7b3693da57a3e
+    head: 57dd058618bd3071df09fdb249e7b3693da57a3e
   versions/1.47/extensions/MassEditRegex:
     path: extensions/MassEditRegex
     url: https://github.com/wikimedia/mediawiki-extensions-MassEditRegex
@@ -3120,8 +3115,8 @@ repos:
     path: extensions/MassMessage
     url: https://github.com/wikimedia/mediawiki-extensions-MassMessage
     branch: REL1_47
-    base: 87178473af092f08e5180520249d173118d2fd2e
-    head: 87178473af092f08e5180520249d173118d2fd2e
+    base: 640b67601a6d14951d3ebe3769cf309fa198ee88
+    head: 640b67601a6d14951d3ebe3769cf309fa198ee88
   versions/1.47/extensions/Math:
     path: extensions/Math
     url: https://github.com/wikimedia/mediawiki-extensions-Math
@@ -3132,14 +3127,14 @@ repos:
     path: extensions/MatomoAnalytics
     url: https://github.com/miraheze/MatomoAnalytics
     branch: main
-    base: 5340136b7bc267b128f608de819c45e27373b651
-    head: 5340136b7bc267b128f608de819c45e27373b651
+    base: 25d5d4e0f9348e688e72fb73f2e86817363db215
+    head: 25d5d4e0f9348e688e72fb73f2e86817363db215
   versions/1.47/extensions/Maps:
     path: extensions/Maps
     url: https://github.com/ProfessionalWiki/Maps
     branch: master
-    base: 6315213691c7bdce6ec1c8a27ab2a799cbdfa0d4
-    head: 6315213691c7bdce6ec1c8a27ab2a799cbdfa0d4
+    base: 1d02d917c11534b267f05c071e55ea7c337cb327
+    head: 1d02d917c11534b267f05c071e55ea7c337cb327
   versions/1.47/extensions/MediaModeration:
     path: extensions/MediaModeration
     url: https://github.com/wikimedia/mediawiki-extensions-MediaModeration
@@ -3162,8 +3157,8 @@ repos:
     path: extensions/MirahezeMagic
     url: https://github.com/miraheze/MirahezeMagic
     branch: main
-    base: c2e68a71924edfd0224c021c98f8fc8f02c5dcfa
-    head: c2e68a71924edfd0224c021c98f8fc8f02c5dcfa
+    base: 3f0393f96ffadb040b83d4bf93c84b1627ec10e5
+    head: 3f0393f96ffadb040b83d4bf93c84b1627ec10e5
   versions/1.47/extensions/MobileDetect:
     path: extensions/MobileDetect
     url: https://github.com/wikimedia/mediawiki-extensions-MobileDetect
@@ -3240,8 +3235,8 @@ repos:
     path: extensions/Network
     url: https://github.com/ProfessionalWiki/Network.git
     branch: master
-    base: 7c289040ec90957b34d43f4c20e38d4105ee07f6
-    head: 7c289040ec90957b34d43f4c20e38d4105ee07f6
+    base: 4869f91bcb7b13258bb88bbdc422d18c11aa2d56
+    head: 4869f91bcb7b13258bb88bbdc422d18c11aa2d56
   versions/1.47/extensions/NewSignupPage:
     path: extensions/NewSignupPage
     url: https://github.com/wikimedia/mediawiki-extensions-NewSignupPage
@@ -3588,8 +3583,8 @@ repos:
     path: extensions/RequestCustomDomain
     url: https://github.com/miraheze/RequestCustomDomain
     branch: main
-    base: b21b82bbafcd01d1052ab000c7ce0e915f4ab902
-    head: b21b82bbafcd01d1052ab000c7ce0e915f4ab902
+    base: 665ee449c75a869bd65e0e298e0b1ff7d6504d0c
+    head: 665ee449c75a869bd65e0e298e0b1ff7d6504d0c
   versions/1.47/extensions/RevisionSlider:
     path: extensions/RevisionSlider
     url: https://github.com/wikimedia/mediawiki-extensions-RevisionSlider
@@ -3678,20 +3673,20 @@ repos:
     path: extensions/ShortDescription
     url: https://github.com/StarCitizenTools/mediawiki-extensions-ShortDescription
     branch: main
-    base: 8e96b77024581fe25f0394d12eaa7ac7d7db5405
-    head: 8e96b77024581fe25f0394d12eaa7ac7d7db5405
+    base: 3d9eaf752119990014d0effa504c0e5dfc4157eb
+    head: 3d9eaf752119990014d0effa504c0e5dfc4157eb
   versions/1.47/extensions/SimpleBatchUpload:
     path: extensions/SimpleBatchUpload
     url: https://github.com/ProfessionalWiki/SimpleBatchUpload
     branch: master
-    base: 6956147c1bc82c3266862abd174961169058da94
-    head: 6956147c1bc82c3266862abd174961169058da94
+    base: 5172ed65650cd9984cc34a90f93e0ed425e421bb
+    head: 5172ed65650cd9984cc34a90f93e0ed425e421bb
   versions/1.47/extensions/SimpleBlogPage:
     path: extensions/SimpleBlogPage
     url: https://github.com/wikimedia/mediawiki-extensions-SimpleBlogPage
     branch: REL1_47
-    base: 9b5578c75f874f160a5a9be9963fb173aee594a7
-    head: 9b5578c75f874f160a5a9be9963fb173aee594a7
+    base: ce09f762be0f8cdcb669827c933390014385aab5
+    head: ce09f762be0f8cdcb669827c933390014385aab5
   versions/1.47/extensions/SimpleChanges:
     path: extensions/SimpleChanges
     url: https://github.com/wikimedia/mediawiki-extensions-SimpleChanges
@@ -3762,8 +3757,8 @@ repos:
     path: extensions/StandardDialogs
     url: https://github.com/wikimedia/mediawiki-extensions-StandardDialogs
     branch: REL1_47
-    base: 790d2d8a1cc282d51678278afd5f815ee1972375
-    head: 790d2d8a1cc282d51678278afd5f815ee1972375
+    base: c7c820d218648c7a462ca7fdf6036c696c60592d
+    head: c7c820d218648c7a462ca7fdf6036c696c60592d
   versions/1.47/extensions/StopForumSpam:
     path: extensions/StopForumSpam
     url: https://github.com/wikimedia/mediawiki-extensions-StopForumSpam
@@ -3798,8 +3793,8 @@ repos:
     path: extensions/TabberNeue
     url: https://github.com/StarCitizenTools/mediawiki-extensions-TabberNeue
     branch: main
-    base: 2695d71d1b947f1e3a8d0d89011fe337e2a6a0f6
-    head: 2695d71d1b947f1e3a8d0d89011fe337e2a6a0f6
+    base: fddb53e0eca23243b0feae0cf7d60496476fffbe
+    head: fddb53e0eca23243b0feae0cf7d60496476fffbe
   versions/1.47/extensions/TableProgressTracking:
     path: extensions/TableProgressTracking
     url: https://github.com/Telepedia/TableProgressTracking
@@ -4068,8 +4063,8 @@ repos:
     path: extensions/WikiDiscover
     url: https://github.com/miraheze/WikiDiscover
     branch: main
-    base: a727e1142997e663a5f357e40d7630fb798857c8
-    head: a727e1142997e663a5f357e40d7630fb798857c8
+    base: c296bc895d577e6b36276ff9bdee98c5a3323923
+    head: c296bc895d577e6b36276ff9bdee98c5a3323923
   versions/1.47/extensions/WikiEditor:
     path: extensions/WikiEditor
     url: https://github.com/wikimedia/mediawiki-extensions-WikiEditor
@@ -4224,8 +4219,8 @@ repos:
     path: skins/Citizen
     url: https://github.com/StarCitizenTools/mediawiki-skins-Citizen
     branch: main
-    base: 497d0560586c6949c8e4b999a825e4d19ad4c675
-    head: 497d0560586c6949c8e4b999a825e4d19ad4c675
+    base: dc34c3dd679ab690747dab815f79daba016bd49e
+    head: dc34c3dd679ab690747dab815f79daba016bd49e
   versions/1.47/skins/CologneBlue:
     path: skins/CologneBlue
     url: https://github.com/wikimedia/mediawiki-skins-CologneBlue
@@ -4260,8 +4255,8 @@ repos:
     path: skins/Femiwiki
     url: https://github.com/femiwiki/FemiwikiSkin
     branch: main
-    base: d97dc38f63af55c5e4651cab525e8a137ed61000
-    head: d97dc38f63af55c5e4651cab525e8a137ed61000
+    base: 674be8927b1edaceb5f2c5e5603765b3ef3b9391
+    head: 674be8927b1edaceb5f2c5e5603765b3ef3b9391
   versions/1.47/skins/Foreground:
     path: skins/Foreground
     url: https://github.com/wikimedia/mediawiki-skins-Foreground
@@ -4284,8 +4279,8 @@ repos:
     path: skins/Lakeus
     url: https://github.com/lakejason0/mediawiki-skins-Lakeus
     branch: master
-    base: 09c8d6ab449959de0401cf152c4b91205f8ebd07
-    head: 09c8d6ab449959de0401cf152c4b91205f8ebd07
+    base: d397067d24a8a21343ea6560efc45ffb1248d338
+    head: d397067d24a8a21343ea6560efc45ffb1248d338
   versions/1.47/skins/Mask:
     path: skins/Mask
     url: https://github.com/wikimedia/mediawiki-skins-Mask
