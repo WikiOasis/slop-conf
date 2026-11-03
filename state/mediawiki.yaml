@@ -1,12 +1,12 @@
 project: mediawiki
 
-run: 20261103-072909-483d
+run: 20261103-201102-987c
 
-deployed-at: '2026-11-03T07:33:57+00:00'
+deployed-at: '2026-11-03T20:12:33+00:00'
 
 deployed-by: thomas@staging-us-east-021
 
-config: 30a600a81a2761d91b7316a1768497ff56f0eb63
+config: 8292d31462886faef20c0e743e24b5a74c9b0932
 
 composer:
   '1.46':
