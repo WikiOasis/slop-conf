@@ -1,12 +1,12 @@
 project: mediawiki
 
-run: 20261110-080601-b094
+run: 20261110-080838-7379
 
-deployed-at: '2026-11-10T08:08:01+00:00'
+deployed-at: '2026-11-10T08:10:39+00:00'
 
 deployed-by: thomas@staging-us-east-021
 
-config: ae24b333469eae07ecea43a8e9dfe46b9eedeeab
+config: 964a2e9dc2a586591ac3432dbacce1ab29fb66bd
 
 composer:
   '1.46':
@@ -919,8 +919,8 @@ repos:
     path: extensions/ManageWiki
     url: https://github.com/miraheze/ManageWiki
     branch: main
-    base: 57dd058618bd3071df09fdb249e7b3693da57a3e
-    head: 57dd058618bd3071df09fdb249e7b3693da57a3e
+    base: 58b8a89465c32f366e6d13d9b3c0b3d4f7a16e36
+    head: 58b8a89465c32f366e6d13d9b3c0b3d4f7a16e36
   versions/1.46/extensions/MassEditRegex:
     path: extensions/MassEditRegex
     url: https://github.com/wikimedia/mediawiki-extensions-MassEditRegex
@@ -3103,8 +3103,8 @@ repos:
     path: extensions/ManageWiki
     url: https://github.com/miraheze/ManageWiki
     branch: main
-    base: 57dd058618bd3071df09fdb249e7b3693da57a3e
-    head: 57dd058618bd3071df09fdb249e7b3693da57a3e
+    base: 58b8a89465c32f366e6d13d9b3c0b3d4f7a16e36
+    head: 58b8a89465c32f366e6d13d9b3c0b3d4f7a16e36
   versions/1.47/extensions/MassEditRegex:
     path: extensions/MassEditRegex
     url: https://github.com/wikimedia/mediawiki-extensions-MassEditRegex
