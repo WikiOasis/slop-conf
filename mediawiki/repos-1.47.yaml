@@ -58,8 +58,8 @@ extensions:
     branch: _version_
 
   - path: extensions/AutoCreatePage
-    url: https://github.com/wikimedia/mediawiki-extensions-AutoCreatePage
-    branch: _version_
+    url: https://github.com/gesinn-it-pub/AutoCreatePage
+    branch: master
 
   - path: extensions/AWS
     url: https://github.com/edwardspec/mediawiki-aws-s3
