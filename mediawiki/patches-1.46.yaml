@@ -1,1 +1,5 @@
-patches: []
+patches:
+  - name: messagecache-fallback-system-messages
+    path: .
+    patch: messagecache-fallback-system-messages.patch
+    description: Include fallback languages' messages in MessageCache system message names

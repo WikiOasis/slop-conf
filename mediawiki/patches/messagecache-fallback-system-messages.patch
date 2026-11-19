@@ -1,0 +1,22 @@
+--- a/includes/Language/MessageCache.php
++++ b/includes/Language/MessageCache.php
+@@ -661,9 +661,16 @@ class MessageCache implements LoggerAwareInterface {
+ 		if ( $code === null ) {
+ 			// Bulk load
+ 			if ( $this->systemMessageNames === null ) {
+-				$this->systemMessageNames = array_fill_keys(
+-					$this->localisationCache->getSubitemList( $this->contLangCode, 'messages' ),
+-					true );
++				$this->systemMessageNames = [];
++				$codeSequence = [
++					$this->contLangCode,
++					...$this->languageFallback->getAll( $this->contLangCode )
++				];
++				foreach ( $codeSequence as $langCode ) {
++					$this->systemMessageNames += array_fill_keys(
++						$this->localisationCache->getSubitemList( $langCode, 'messages' ) ?: [],
++						true );
++				}
+ 			}
+ 			return isset( $this->systemMessageNames[$msg] );
+ 		} else {
