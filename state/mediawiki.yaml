@@ -1,18 +1,18 @@
 project: mediawiki
 
-run: 20261119-220905-de57
+run: 20261120-125717-85e5
 
-deployed-at: '2026-11-19T22:14:03+00:00'
+deployed-at: '2026-11-20T13:00:19+00:00'
 
 deployed-by: thomas@staging-us-east-021
 
-config: 52e98715aae48945162443b4898e64be377c239b
+config: 42195aa3fc416fbdc0411de88b26cf213b049793
 
 composer:
   '1.46':
-    inputs: ff3879ee82004139935014e4a43fa1fa83aeab96829f7c19260990795b6b7a74
+    inputs: d0186a3d89e496d10828dbf8ea19405ee6b1661ed59a3529ba5fba7cecf81937
   '1.47':
-    inputs: eccf79bddf496983295183b83594f439331c874fb2c5a89ca12ef6892f618edd
+    inputs: bd2ef7ac6f90c49bfbb770d3691b7e8381c180a75ba563a8bf29ca48a245b8f9
 
 repos:
   config:
@@ -377,8 +377,8 @@ repos:
     path: extensions/CreateWiki
     url: https://github.com/WikiOasis/CreateWiki
     branch: main
-    base: 34aa224f29c070a800067f9f70a68b4d336233dd
-    head: 34aa224f29c070a800067f9f70a68b4d336233dd
+    base: 484ea1dc3de7ba73c713aa3c52e6ffac379c981e
+    head: 484ea1dc3de7ba73c713aa3c52e6ffac379c981e
   versions/1.46/extensions/CreatedPagesList:
     path: extensions/CreatedPagesList
     url: https://github.com/wikimedia/mediawiki-extensions-CreatedPagesList
@@ -2565,8 +2565,8 @@ repos:
     path: extensions/CreateWiki
     url: https://github.com/WikiOasis/CreateWiki
     branch: main
-    base: 34aa224f29c070a800067f9f70a68b4d336233dd
-    head: 34aa224f29c070a800067f9f70a68b4d336233dd
+    base: 484ea1dc3de7ba73c713aa3c52e6ffac379c981e
+    head: 484ea1dc3de7ba73c713aa3c52e6ffac379c981e
   versions/1.47/extensions/CreatedPagesList:
     path: extensions/CreatedPagesList
     url: https://github.com/wikimedia/mediawiki-extensions-CreatedPagesList
