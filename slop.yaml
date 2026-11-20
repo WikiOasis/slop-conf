@@ -68,8 +68,8 @@ projects:
             roles:
               - canary
       l10n:
-        when: auto
-        wiki: testwiki
+        when: always
+        command: sudo -n -u www-data php {path}/scripts/mwscript.php rebuildLocalisationCache --wiki metawiki && sudo -n -u www-data php {path}/scripts/mwscript.php rebuildLocalisationCache --wiki testwiki
 
   tsportal:
     type: service
