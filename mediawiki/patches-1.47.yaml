@@ -3,3 +3,7 @@ patches:
     path: .
     patch: messagecache-fallback-system-messages.patch
     description: Include fallback languages' messages in MessageCache system message names
+  - name: structurednavigation-json-schema-6
+    path: extensions/StructuredNavigation
+    patch: structurednavigation-json-schema-6.patch
+    description: Allow justinrainbow/json-schema 6.x (MW 1.47 core pins 6.14.0, extension requires ~5.3)

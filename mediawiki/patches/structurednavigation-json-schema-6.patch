@@ -1,0 +1,10 @@
+--- a/composer.json
++++ b/composer.json
+@@ -1,6 +1,6 @@
+ {
+ 	"require": {
+-		"justinrainbow/json-schema": "~5.3"
++		"justinrainbow/json-schema": "^5.3 || ^6.0"
+ 	},
+ 	"require-dev": {
+ 		"mediawiki/mediawiki-codesniffer": "52.0.0",
