@@ -1,14 +1,12 @@
 project: mediawiki
 
-run: 20261127-073019-6632
+run: 20261127-073119-ac26
 
-deployed-at: '2026-11-27T07:30:47+00:00'
+deployed-at: '2026-11-27T07:33:09+00:00'
 
 deployed-by: thomas@staging-us-east-021
 
-message: extend login cookie
-
-config: d64364691287c90510df42bdc7fce93005565f43
+config: 40b92e5bc2a0eafdf1dd753d5a11d511c234d526
 
 composer:
   '1.46':
@@ -379,8 +377,8 @@ repos:
     path: extensions/CreateWiki
     url: https://github.com/WikiOasis/CreateWiki
     branch: main
-    base: 484ea1dc3de7ba73c713aa3c52e6ffac379c981e
-    head: 484ea1dc3de7ba73c713aa3c52e6ffac379c981e
+    base: 803f2dd771c81bf3ad7ddf01f80929cc14fe0f87
+    head: 803f2dd771c81bf3ad7ddf01f80929cc14fe0f87
   versions/1.46/extensions/CreatedPagesList:
     path: extensions/CreatedPagesList
     url: https://github.com/wikimedia/mediawiki-extensions-CreatedPagesList
@@ -925,8 +923,8 @@ repos:
     path: extensions/ManageWiki
     url: https://github.com/miraheze/ManageWiki
     branch: main
-    base: ebe05f7ab0d284610ea382df83ca20d2a923c7e8
-    head: ebe05f7ab0d284610ea382df83ca20d2a923c7e8
+    base: 838ef93003af82b6092485e03ef18cd547bb5cde
+    head: 838ef93003af82b6092485e03ef18cd547bb5cde
   versions/1.46/extensions/MassEditRegex:
     path: extensions/MassEditRegex
     url: https://github.com/wikimedia/mediawiki-extensions-MassEditRegex
@@ -2567,8 +2565,8 @@ repos:
     path: extensions/CreateWiki
     url: https://github.com/WikiOasis/CreateWiki
     branch: main
-    base: 484ea1dc3de7ba73c713aa3c52e6ffac379c981e
-    head: 484ea1dc3de7ba73c713aa3c52e6ffac379c981e
+    base: 803f2dd771c81bf3ad7ddf01f80929cc14fe0f87
+    head: 803f2dd771c81bf3ad7ddf01f80929cc14fe0f87
   versions/1.47/extensions/CreatedPagesList:
     path: extensions/CreatedPagesList
     url: https://github.com/wikimedia/mediawiki-extensions-CreatedPagesList
@@ -3113,8 +3111,8 @@ repos:
     path: extensions/ManageWiki
     url: https://github.com/miraheze/ManageWiki
     branch: main
-    base: ebe05f7ab0d284610ea382df83ca20d2a923c7e8
-    head: ebe05f7ab0d284610ea382df83ca20d2a923c7e8
+    base: 838ef93003af82b6092485e03ef18cd547bb5cde
+    head: 838ef93003af82b6092485e03ef18cd547bb5cde
   versions/1.47/extensions/MassEditRegex:
     path: extensions/MassEditRegex
     url: https://github.com/wikimedia/mediawiki-extensions-MassEditRegex
